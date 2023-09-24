@@ -13,7 +13,7 @@ public class ConfigurationReader {
     //1- Create the Properties object (create object)
     //make it "private" so we are limiting access to the object
     //"static" is to make sure its created and loaded before everything else.
-    private static Properties properties = new Properties();
+    private static final Properties properties = new Properties();
 
     static{
 
